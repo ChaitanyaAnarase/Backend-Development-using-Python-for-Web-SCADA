@@ -128,12 +128,3 @@ __pycache__/
 *.pyc
 .env
 
-
-Push to GitHub:
-
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-
-
-✅ With this backend, your frontend can make AJAX requests to /modbus/read, /modbus/write, /opcua/read, and /opcua/write. Real-time updates can be handled with JavaScript setInterval or WebSockets later.
